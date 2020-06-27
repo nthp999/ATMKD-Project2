@@ -16,3 +16,4 @@
 -	Kiểm tra Kali Linux nhận wireless card bằng câu lệnh iwconfig, tại đây ta thấy wlan0 sẽ là interface của wireless adapter.
 -	Chạy lệnh airmon-ng start wlan0 để bật chế độ monitor cho wlan0.
 -	Chạy lệnh ifconfig wlan0mon ta sẽ thấy một interface mới, wlan0mon là in-terface dùng để sniff các packet wireless, lúc này card mạng sẽ thu nhận tất cả các packets được gửi đi từ các card wireless khác trong phạm vi bắt sóng.
+![text](Image1.png)
