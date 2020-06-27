@@ -7,7 +7,7 @@
 - [1.	Lỗ hổng của WEP](#LohongcuaWEP)
 - [2. Cracking WEP (Kismet, Aireplay-ng, Airodump-ng, Aircarck-ng)](#crackingwep)
 - [3.	CommView for WiFi](#CommView)
-
+<a name="thietbi"></a>
 ## I. Thiết bị
 -	Access Point: Totolink N302R Plus
 -	Operation System: Kali Linux 2020.2
