@@ -2,9 +2,9 @@
 # CRACKING WEP
 ##### *Nguyễn Thị Hồng Phúc - 17520128*
 ##### *Lê Trần Anh Thư - 17520169*
-### Mục lục
-#### [I.	Thiết bị](#thietbi)
-#### [II.	Cracking WEP](#crackingWEP)
+## Mục lục
+### [I.	Thiết bị](#thietbi)
+### [II.	Cracking WEP](#crackingWEP)
   * [1.	Lỗ hổng của WEP](#lohongWEP)
   * [2. Kismet, Aireplay-ng, Airodump-ng, Aircarck-ng](#Linux)
   * [3.	CommView for WiFi](#Windows)
