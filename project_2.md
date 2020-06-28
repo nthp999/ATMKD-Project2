@@ -51,7 +51,7 @@ Có thể thu thêm nhiều thông tin của Access Point này bằng cách clic
 
 Mục Associated Clients biểu thị các thiệt bị đang truy cập vào AP tại thời diểm quét, cụ thể sẽ có nội dung như sau:
 
-![img0](Images/Image0.png)
+![img0](Images/Image0.PNG)
 
 Ngoài Kismet, có thể bắt các gói tin ở các mạng không dây xung quanh bằng câu lệnh **airodump-ng wlan0mon**. Tuy nhiên, airodump-ng chỉ cung cấp các thông số cơ bản. Các thông tin được hiển thị tương tự như hình bên dưới:
 
@@ -114,15 +114,15 @@ Sau khi khởi động CommView, phần mềm sẽ tự động đưa card mạn
 
 Đầu tiên chọn “Scanner mode -> Configure -> Start Capture” để dò tất cả các mạng không dây trọng khu vực, khi tìm thấy được mạng không dây cần sniffing, chú ý đến số channel.
 
-![img12](Images/Image12.png)
+![img12](Images/Image12.PNG)
 
 Sau đó tại mục Captue, chọn *Single channel mode -> Channel x*. Trong phần này, mạng Wi-Fi “InSecLab” ở channel 12. Bắt đầu bắt các gói tin trong mạng này.
 
-![img13](Images/Image13.png)
+![img13](Images/Image13.PNG)
 
 Việc bắt gói tin kết thúc, chọn *File -> Log Viewer -> Load CommView Log*, chọn các file log vừa capture được lưu trong thư mục Log của phần mềm. Chọn *File -> Export pcap* để xuất ra file pcap.
 
-![img14](Images/Image14.png)
+![img14](Images/Image14.PNG)
 
 Nếu thực hiện trên Windows có thể cài đặt bản Aircrack-ng GUI để thực hiện việc phân tích gói pcap và crack password. Aircrack-ng GUI có giao diện như sau.
 
@@ -131,7 +131,7 @@ Nếu thực hiện trên Windows có thể cài đặt bản Aircrack-ng GUI đ
 Tuy nhiên trong phần này, nhóm em dùng aircrack-ng có sẵn ở máy ảo Kali Linux 2020.1. Chạy file .cap -> chọn gói tin thứ 2 (WEP).
 Key là ASCII 40 bit: X(w8o
 
-![img16](Images/Image16.png)
+![img16](Images/Image16.PNG)
 
 #### **Tham khảo**
 - https://www.aircrack-ng.org/doku.php?id=simple_wep_crack
