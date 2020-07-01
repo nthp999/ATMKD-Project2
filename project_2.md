@@ -51,7 +51,7 @@ Có thể thu thêm nhiều thông tin của Access Point này bằng cách clic
 
 Mục Associated Clients biểu thị các thiệt bị đang truy cập vào AP tại thời diểm quét, cụ thể sẽ có nội dung như sau:
 
-![img0](Images/Image0.PNG)
+![img0](Images/Image0.png)
 
 Ngoài Kismet, có thể bắt các gói tin ở các mạng không dây xung quanh bằng câu lệnh **airodump-ng wlan0mon**. Tuy nhiên, airodump-ng chỉ cung cấp các thông số cơ bản. Các thông tin được hiển thị tương tự như hình bên dưới:
 
@@ -126,7 +126,7 @@ Việc bắt gói tin kết thúc, chọn *File -> Log Viewer -> Load CommView L
 
 Nếu thực hiện trên Windows có thể cài đặt bản Aircrack-ng GUI để thực hiện việc phân tích gói pcap và crack password. Aircrack-ng GUI có giao diện như sau.
 
-![img15](Images/404.png)
+![img15](Images/Image15.png)
 
 Tuy nhiên trong phần này, nhóm em dùng aircrack-ng có sẵn ở máy ảo Kali Linux 2020.1. Chạy file .cap -> chọn gói tin thứ 2 (WEP).
 Key là ASCII 40 bit: X(w8o
