@@ -1,7 +1,7 @@
 #### *Báo cáo Project 2*
 # CRACKING WEP
-##### *Nguyễn Thị Hồng Phúc - 17520128*
-##### *Lê Trần Anh Thư - 17520169*
+*Nguyễn Thị Hồng Phúc - 17520128*
+*Lê Trần Anh Thư - 17520169*
 ## Mục lục
 ### [I.	Thiết bị](#thietbi)
 ### [II.	Cracking WEP](#crackingWEP)
