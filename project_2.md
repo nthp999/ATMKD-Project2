@@ -13,7 +13,7 @@
 -	Access Point: Totolink N302R Plus
 -	Operation System: Kali Linux 2020.2
 -	CPU core: i5
--	CPU Speed: 250 GHz
+-	CPU Speed: 2.5 GHz
 -	RAM: 16GB
 -	Wireless Card: Intel(R) Dual Band Wireless-AC 8265
 
