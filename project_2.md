@@ -76,12 +76,13 @@ Sau khi chạy câu lệnh trên, airodump-ng sẽ xuất ra các file  *“.csv
 
 #### *Step 4: Aireplay-ng*
 Dùng aireplay để tiêm thêm các gói ARP vào Access Point, đẩy nhanh việc thu thập IVs.
-Có 3 cách:
-- Fake Authentication Attack => Gửi các gói authentication giả đến Access Point.
-- Interactive Packet Replay => Thực hiện resend các gói data từ client đến Access Point.
-- ARP Injection => Tiêm vào Access Point các gói tin bất kỳ.
+Có 2 cách:
+- *C1.1*:Fake Authentication Attack => Gửi các gói authentication giả đến Access Point.
+- *C1.2*:ARP Injection => Tiêm vào Access Point các gói tin bất kỳ.
+- *C2*: Interactive Packet Replay => Thực hiện resend các gói data từ client đến Access Point.
 
-Trong phần này, nhóm em dùng phương pháp **Interactive Packet Replay** để tiêm vào Access Point với câu lệnh ``aireplay-ng -2 -b [AP MAC] -h [Client MAC] -n 100 -p 0841 -c FF:FF:FF:FF:FF:FF wlan0mon``.
+Trong phần này, nhóm em dùng phương pháp **Interactive Packet Replay** để tiêm vào Access Point với câu lệnh 
+``aireplay-ng -2 -b [AP MAC] -h [Client MAC] -n 100 -p 0841 -c FF:FF:FF:FF:FF:FF wlan0mon``.
 
 Trong đó:
 - **-2**: interactive replay attack
